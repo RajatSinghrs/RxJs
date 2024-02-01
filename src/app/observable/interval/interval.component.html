@@ -1,0 +1,27 @@
+<div class="my-3">
+  <h2>Interval & Timer</h2>
+  <br><br>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">Interval</div>
+        <div class="card-body">
+          <button (click)="intervalRun ? stopInterval(): resetData() ">{{intervalRun?'stopInterval':'Reset'}}</button>
+          <ul id="elemContainer" ></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">Timer</div>
+        <div class="card-body">
+          <button (click)="timerRun ? stopTimer(): resetTimer() ">{{timerRun?'stopTimer':'Reset'}}</button>
+          <ul id="elemContainer2" ></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+     

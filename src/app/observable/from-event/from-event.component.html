@@ -1,0 +1,35 @@
+<div class="my-3">
+  <h2>From Event</h2>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">ADD VIDEO</div>
+          <div class="card-body">
+            <button #addBtn class="btn btn-primary">
+              PRESS to ADD
+            </button> 
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">LIST OF VIDEOS</div>
+          <div class="card-body">
+           <ul id="elemContainer"><!--we cannot push using ngFor as its not an array , its a stream of data, so we use id-->     
+           </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">LIST OF VIDEOS</div>
+          <div class="card-body">
+           <ul id="elemContainer2">     
+           </ul>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>

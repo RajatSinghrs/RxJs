@@ -1,0 +1,67 @@
+<div class="my-3">
+  <h2>Filter</h2>
+  <br>
+
+  <div class="row">
+    <div class="col-md-4">
+      <strong>EX - 01</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Filter : </strong> by length
+      </p>
+      <table class="table">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+        </tr>
+        <tr *ngFor="let item of data" >
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-md-4">
+      <strong>EX - 02</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Filter : </strong> by Gender
+      </p>
+      <table class="table">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Gender</th>
+        </tr>
+        <tr *ngFor="let item of data2" >
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+          <td>{{item.gender}}</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-md-4">
+      <strong>EX - 03</strong>
+      <hr>
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Filter : </strong> by n'th item
+      </p>
+      <table class="table">
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Gender</th>
+        </tr>
+        <tr *ngFor="let item of data3">
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+          <td>{{item.gender}}</td>
+        </tr>
+      </table>
+    </div>
+
+
+
+  </div>
+</div>
