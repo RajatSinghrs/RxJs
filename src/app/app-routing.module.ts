@@ -71,7 +71,7 @@ const routes: Routes = [
     ]
   },
   {
-    path:'**', redirectTo:'promise'
+    path:'**', redirectTo:'observable'
   }
 ];
 
