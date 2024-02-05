@@ -30,12 +30,12 @@ import { SharereplayComponent } from './observable/sharereplay/sharereplay.compo
 import { CombineLatestComponent } from './observable/combine-latest/combine-latest.component';
 import { ZipComponent } from './observable/zip/zip.component';
 import { ErrorCTComponent } from './observable/error-ct/error-ct.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 const routes: Routes = [
-  {
-    path: 'promise',
-    component: PromiseComponent,
+  {   
+    path: 'promise', component: PromiseComponent,
   },
   {
     path:'observable',
@@ -71,7 +71,10 @@ const routes: Routes = [
     ]
   },
   {
-    path:'**', redirectTo:'observable'
+    path: 'homepage', component: HomepageComponent,
+  },
+  {
+    path:'**', redirectTo:'homepage'
   }
 ];
 

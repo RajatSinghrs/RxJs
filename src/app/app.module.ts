@@ -40,6 +40,7 @@ import { ZipComponent } from './observable/zip/zip.component';
 import { ErrorCTComponent } from './observable/error-ct/error-ct.component';
 import { ScrollToElementDirective } from './scroll-to-element.directive';
 import { environment } from 'src/environments/environment';
+import { HomepageComponent } from './homepage/homepage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -77,7 +78,8 @@ import { environment } from 'src/environments/environment';
     CombineLatestComponent,
     ZipComponent,
     ErrorCTComponent,
-    ScrollToElementDirective
+    ScrollToElementDirective,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,

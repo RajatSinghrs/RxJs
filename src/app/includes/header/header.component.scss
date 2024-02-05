@@ -3,13 +3,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: lightblue;
+  background-color: #e9226bf5;;
 }
 .navbar h4 a{
   color: black;
   text-decoration: none;
   font-style: oblique;
   padding-left: 16px;
+  font-weight: 400;
+  margin-top: 17px;
 }
 .navbar ul {
   list-style: none;
@@ -26,7 +28,7 @@
 }
 .navbar li a {
   text-decoration: none;
-  color: gray; 
+  color: rgb(88, 85, 85); 
   font-weight: normal; 
 }
 .badge
