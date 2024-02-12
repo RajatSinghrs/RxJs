@@ -1,0 +1,35 @@
+.border-white{
+    border: 1px solid white;
+}
+.side-nav-content{
+    color: white;
+    width: 230px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+.nav-list{
+    list-style: none;
+    height: 100%;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+.nav-list-item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.nav-list-open .nav-list-item:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+.nav-list-item span{
+    width: 170px;
+    text-transform: capitalize;
+    padding-left: 9px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

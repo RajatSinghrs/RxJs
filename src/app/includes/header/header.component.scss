@@ -2,15 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   background-color: #e9226bf5;;
 }
 .navbar h4 a{
-  color: black;
+  color: white;
   text-decoration: none;
   font-style: oblique;
   padding-left: 16px;
-  font-weight: 400;
   margin-top: 17px;
 }
 .navbar ul {
@@ -34,4 +33,23 @@
 .badge
 {
   margin-right:675px;
+}
+.nav-link-home{
+  padding-right: 500px;
+}
+.side-nav{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+ 
+}
+.side-nav:hover{
+    background-color: rgba(94, 6, 53, 0.363);
+    border-radius: 10%;
+}
+.navbar .side-nav{
+  margin-left: 28px;
 }

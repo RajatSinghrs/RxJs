@@ -31,6 +31,8 @@ import { CombineLatestComponent } from './observable/combine-latest/combine-late
 import { ZipComponent } from './observable/zip/zip.component';
 import { ErrorCTComponent } from './observable/error-ct/error-ct.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { DocsComponent } from './docs/docs.component';
+
 
 
 const routes: Routes = [
@@ -72,6 +74,9 @@ const routes: Routes = [
   },
   {
     path: 'homepage', component: HomepageComponent,
+  },
+  {
+    path: 'docs', component: DocsComponent,
   },
   {
     path:'**', redirectTo:'homepage'

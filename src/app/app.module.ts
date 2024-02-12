@@ -41,6 +41,9 @@ import { ErrorCTComponent } from './observable/error-ct/error-ct.component';
 import { ScrollToElementDirective } from './scroll-to-element.directive';
 import { environment } from 'src/environments/environment';
 import { HomepageComponent } from './homepage/homepage.component';
+import { DocsComponent } from './docs/docs.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -79,7 +82,9 @@ import { HomepageComponent } from './homepage/homepage.component';
     ZipComponent,
     ErrorCTComponent,
     ScrollToElementDirective,
-    HomepageComponent
+    HomepageComponent,
+    DocsComponent,
+    SideNavComponent,
   ],
   imports: [
     BrowserModule,
@@ -90,4 +95,5 @@ import { HomepageComponent } from './homepage/homepage.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}

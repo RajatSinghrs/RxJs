@@ -5,7 +5,8 @@ import { Button } from 'protractor';
   templateUrl: './promise.component.html',
   styleUrls: ['./promise.component.scss']
 })
-export class PromiseComponent implements OnInit {
+export class PromiseComponent implements OnInit { 
+
   constructor() { }
   laptopAvailable(){
     return false;
